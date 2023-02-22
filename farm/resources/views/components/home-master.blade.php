@@ -7,7 +7,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="{{asset('home_ui/img/favicon.ico'}}" rel="icon">
+    <link href="{{asset('home_ui/img/favicon.ico')}}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,7 +24,7 @@
     <link href="{{asset('home_ui/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('home_ui/css/style.css'}}" rel="stylesheet">
+    <link href="{{asset('home_ui/css/style.css')}}" rel="stylesheet">
 </head>
 
  <!-- Topbar Start -->

@@ -474,5 +474,5 @@
 
 
 
-    @section
+    @endsection
 </x-home-master>
