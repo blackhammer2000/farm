@@ -6,7 +6,7 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="{{asset('home_ui/img/carousel-1.jpg')}}" alt="Image">
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h3 class="text-white">Organic Vegetables</h3>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="{{asset('home_ui/img/carousel-2.jpg')}}" alt="Image">
                     <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h3 class="text-white">Organic Fruits</h3>
@@ -73,7 +73,7 @@
             <div class="row gx-5">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="d-flex h-100 border border-5 border-primary border-bottom-0 pt-4">
-                        <img class="img-fluid mt-auto mx-auto" src="img/about.png">
+                        <img class="img-fluid mt-auto mx-auto" src="{{asset('home_ui/img/about.png')}}">
                     </div>
                 </div>
                 <div class="col-lg-6 pb-5">
@@ -336,13 +336,13 @@
                 <div class="col-lg-7">
                     <div class="owl-carousel testimonial-carousel p-5">
                         <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4" src="img/testimonial-2.jpg" alt="">
+                            <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4" src="{{asset('home_ui/img/testimonial-2.jpg')}}" alt="">
                             <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
                             <hr class="mx-auto w-25">
                             <h4 class="text-white mb-0">Client Name</h4>
                         </div>
                         <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4" src="img/testimonial-2.jpg" alt="">
+                            <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4" src="{{asset('home_ui/img/testimonial-2.jpg')}}" alt="">
                             <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
                             <hr class="mx-auto w-25">
                             <h4 class="text-white mb-0">Client Name</h4>
@@ -367,7 +367,7 @@
                     <div class="row g-0">
                         <div class="col-10">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="{{asset('home_ui/img/team-1.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
                                     <span class="text-white">Designation</span>
@@ -388,7 +388,7 @@
                     <div class="row g-0">
                         <div class="col-10">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="{{asset('home_ui/img/team-2.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
                                     <span class="text-white">Designation</span>
@@ -409,7 +409,7 @@
                     <div class="row g-0">
                         <div class="col-10">
                             <div class="position-relative">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="{{asset('home_ui/img/team-3.jpg')}}" alt="">
                                 <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                     <h4 class="text-white">Farmer Name</h4>
                                     <span class="text-white">Designation</span>
@@ -442,7 +442,7 @@
             <div class="row g-5">
                 <div class="col-lg-4">
                     <div class="blog-item position-relative overflow-hidden">
-                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                        <img class="img-fluid" src="{{asset('home_ui/img/blog-1.jpg')}}" alt="">
                         <a class="blog-overlay" href="">
                             <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                             <span class="text-white fw-bold">Jan 01, 2050</span>
@@ -451,7 +451,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="blog-item position-relative overflow-hidden">
-                        <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                        <img class="img-fluid" src="{{asset('home_ui/img/blog-2.jpg')}}" alt="">
                         <a class="blog-overlay" href="">
                             <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                             <span class="text-white fw-bold">Jan 01, 2050</span>
@@ -460,7 +460,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="blog-item position-relative overflow-hidden">
-                        <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                        <img class="img-fluid" src="{{asset('home_ui/img/blog-3.jpg')}}" alt="">
                         <a class="blog-overlay" href="">
                             <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
                             <span class="text-white fw-bold">Jan 01, 2050</span>
