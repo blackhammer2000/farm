@@ -235,6 +235,6 @@
     <!-- Blog End -->
 
 
-@section
+@endsection
 
 </x-home-master>
