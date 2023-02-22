@@ -28,4 +28,13 @@ Route::get('/service', [App\Http\Controllers\HomeController::class, 'service'])-
 Route::get('/product', [App\Http\Controllers\HomeController::class, 'product'])->name('home.product');
 
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('home.contact');
-// Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('home.about');
+
+Route::get('/blog', [App\Http\Controllers\HomeController::class, 'blog'])->name('home.blog');
+
+Route::get('/blog/detail', [App\Http\Controllers\HomeController::class, 'detail'])->name('home.detail');
+
+Route::get('/features', [App\Http\Controllers\HomeController::class, 'features'])->name('home.features');
+
+Route::get('/team', [App\Http\Controllers\HomeController::class, 'team'])->name('home.team');
+
+Route::get('/testimonial', [App\Http\Controllers\HomeController::class, 'testimonial'])->name('home.testimonial');
