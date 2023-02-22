@@ -54,4 +54,17 @@ class HomeController extends Controller
     {
         return view('home.testimonial');
     }
+    public function blog()
+    {
+        return view('home.blog');
+    }
+    public function detail()
+    {
+        return view('home.detail');
+    }
+    public function features()
+    {
+        return view('home.testimonial');
+    }
+
 }
