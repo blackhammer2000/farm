@@ -72,13 +72,13 @@
 
                 @if(Auth::check())
 
-                <a href="{{route('home.service')}}" class="nav-item nav-link">Admin</a>
-                <a href="{{route('home.service')}}" class="nav-item nav-link">Logout</a>
+                <a href="{{route('home.admin')}}" class="nav-item nav-link">Admin</a>
+                <a href="{{route('home.logout')}}" class="nav-item nav-link">Logout</a>
 
                 @else
 
-                <a href="{{route('home.service')}}" class="nav-item nav-link">Login</a>
-                <a href="{{route('home.service')}}" class="nav-item nav-link">Register</a>
+                <a href="{{route('home.login')}}" class="nav-item nav-link">Login</a>
+                <a href="{{route('home.register')}}" class="nav-item nav-link">Register</a>
 
                 @endif
                 <a href="{{route('home.product')}}" class="nav-item nav-link">Product</a>
