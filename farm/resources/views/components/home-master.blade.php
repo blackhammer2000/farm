@@ -69,6 +69,18 @@
                 <a href="{{route('home.index')}}" class="nav-item nav-link active">Home</a>
                 <a href="{{route('home.about')}}" class="nav-item nav-link">About</a>
                 <a href="{{route('home.service')}}" class="nav-item nav-link">Service</a>
+
+                @if(Auth::check())
+
+                <a href="{{route('home.service')}}" class="nav-item nav-link">Admin</a>
+                <a href="{{route('home.service')}}" class="nav-item nav-link">Logout</a>
+
+                @else
+
+                <a href="{{route('home.service')}}" class="nav-item nav-link">Login</a>
+                <a href="{{route('home.service')}}" class="nav-item nav-link">Register</a>
+
+                @endif
                 <a href="{{route('home.product')}}" class="nav-item nav-link">Product</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
