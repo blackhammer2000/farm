@@ -15,7 +15,20 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-white mb-md-4">Add Option</h1>
-                    form.form
+                    
+                    <form class="form" method="post" action="{{route('option')}}">
+                      @csrf
+                      <div class="form-check">
+                        <input class="form-check input" type="radio" name="option" id="flora" /> 
+                        <label class="form-check label" for="flora">Flora</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check input" type="radio" name="option" id="fauna" /> 
+                        <label class="form-check label" for="flora">Fauna</label>
+                      </div>
+
+
+                    </form>
                     <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
                     <a href="" class="btn btn-secondary py-md-3 px-md-5">Products</a> -->
                 </div>

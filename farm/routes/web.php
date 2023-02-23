@@ -21,6 +21,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::post('/option', [optionsController::class, 'chooseOption']) -> name('');
+
+
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']) -> name('home.index');
 
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about']) -> name('home.about');
@@ -40,6 +44,13 @@ Route::get('/features', [App\Http\Controllers\HomeController::class, 'features']
 Route::get('/team', [App\Http\Controllers\HomeController::class, 'team']) -> name('home.team');
 
 Route::get('/testimonial', [App\Http\Controllers\HomeController::class, 'testimonial']) -> name('home.testimonial');
+
+
+//////////////////////////////////////////////
+
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index']) -> name('admin.index');
+
+Route::get('/logout', [App\Http\Controllers\HomeController::class, 'logout']) -> name('home.index');
 
 //options
 

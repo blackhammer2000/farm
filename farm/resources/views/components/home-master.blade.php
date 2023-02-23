@@ -93,7 +93,7 @@
                         <a href="{{route('home.testimonial')}}" class="dropdown-item">Testimonial</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="{{route('home.contact')}}" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
