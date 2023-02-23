@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\cropController;
+use App\Http\Controllers\optionsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,3 +40,10 @@ Route::get('/features', [App\Http\Controllers\HomeController::class, 'features']
 Route::get('/team', [App\Http\Controllers\HomeController::class, 'team']) -> name('home.team');
 
 Route::get('/testimonial', [App\Http\Controllers\HomeController::class, 'testimonial']) -> name('home.testimonial');
+
+//options
+
+Route::post('/options', [optionsController::class, 'chooseCategory']) -> name('options');
+
+Route::get('/category/crop/create', [cropController::class, 'create']) -> name('crop.create');
+Route::get('/category/animal/create', [cropController::class, 'create']) -> name('animal.create');
