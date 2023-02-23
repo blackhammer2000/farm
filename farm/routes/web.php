@@ -54,7 +54,7 @@ Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index']) -> n
 
 //options
 
-Route::post('/options', [optionsController::class, 'chooseCategory']) -> name('options');
+Route::post('/option', [optionsController::class, 'chooseCategory']) -> name('option');
 
 Route::get('/category/crop/create', [cropController::class, 'create']) -> name('crop.create');
 

@@ -17,6 +17,14 @@ class optionsController extends Controller{
 
     public function chooseOption(Request $request){
       dd($$request);
+
+      if($request -> option === "flora"){
+        return redirect('/option/flora/index');
+      }
+
+      if($request -> option === "fauna"){
+        return redirect('/option/fauna/index');
+      }
       
     }
 }
