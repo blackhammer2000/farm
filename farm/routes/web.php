@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\animalController;
 use App\Http\Controllers\cropController;
 use App\Http\Controllers\optionsController;
 use Illuminate\Support\Facades\Route;
@@ -56,6 +57,6 @@ Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index']) -> n
 
 Route::post('/option', [optionsController::class, 'chooseOption']) -> name('option');
 
-Route::get('/option/flora/index', [cropController::class, 'floraIndex']) -> name('options.flora.index');
+Route::get('/option/flora/index', [cropController::class, 'index']) -> name('flora.index');
 
-Route::get('/option/fauna/index', [cropController::class, 'faunaIndex']) -> name('options.fauna.index');
+Route::get('/option/fauna/index', [animalController::class, 'index']) -> name('fauna.index');

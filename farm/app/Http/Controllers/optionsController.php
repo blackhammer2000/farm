@@ -20,19 +20,19 @@ class optionsController extends Controller{
 
       if($request -> option === "Flora"){
         return redirect('/option/flora/index');
+
       }
 
       elseif($request -> option === "Fauna"){
         return redirect('/option/fauna/index');
+
       }
       
     }
 
-    public function floraIndex(){
-        return view('options.flora.index');
-    }
+   
 
-    public function faunaIndex(){
+    public function index(){
         return view('options.fauna.index');
     }
 }

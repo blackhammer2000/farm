@@ -12,7 +12,7 @@ class cropController extends Controller{
     }
 
     public function index(){
-        return view('crop.index');
+        return view('options.flora.index');
     }
 }
 
