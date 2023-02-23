@@ -76,9 +76,9 @@ class HomeController extends Controller
         return view('admin.index');
     }
 
-    public function logout()
-    {
-        return view('home.index');
-    }
+    // public function logout()
+    // {
+    //     return view('home.index');
+    // }
 
 }
