@@ -81,7 +81,7 @@
 
                 @endif
 
-                <a href="{{route('home.products')}}" class="nav-item nav-link">Product</a>
+                <a href="{{route('home.product')}}" class="nav-item nav-link">Product</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">

@@ -31,7 +31,7 @@ Route::get('/about', [App\Http\Controllers\HomeController::class, 'about']) -> n
 
 Route::get('/service', [App\Http\Controllers\HomeController::class, 'service']) -> name('home.service');
 
-Route::get('/products', [App\Http\Controllers\HomeController::class, 'products']) -> name('home.products');
+Route::get('/product', [App\Http\Controllers\HomeController::class, 'product']) -> name('home.product');
 
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact']) -> name('home.contact');
 

@@ -43,7 +43,7 @@ class HomeController extends Controller
 
     public function product()
     {
-        return view('home.products');
+        return view('home.product');
     }
 
     public function team()
