@@ -31,7 +31,7 @@ Route::get('/about', [App\Http\Controllers\HomeController::class, 'about']) -> n
 
 Route::get('/service', [App\Http\Controllers\HomeController::class, 'service']) -> name('home.service');
 
-Route::get('/product', [App\Http\Controllers\HomeController::class, 'product']) -> name('home.product');
+Route::get('/products', [App\Http\Controllers\HomeController::class, 'products']) -> name('home.products');
 
 Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact']) -> name('home.contact');
 
@@ -57,4 +57,5 @@ Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index']) -> n
 Route::post('/options', [optionsController::class, 'chooseCategory']) -> name('options');
 
 Route::get('/category/crop/create', [cropController::class, 'create']) -> name('crop.create');
+
 Route::get('/category/animal/create', [cropController::class, 'create']) -> name('animal.create');
