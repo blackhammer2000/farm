@@ -16,16 +16,24 @@ class optionsController extends Controller{
     // }
 
     public function chooseOption(Request $request){
-      dd($$request);
+    //   dd($request);
 
-      if($request -> option === "flora"){
+      if($request -> option === "Flora"){
         return redirect('/option/flora/index');
       }
 
-      if($request -> option === "fauna"){
+      elseif($request -> option === "Fauna"){
         return redirect('/option/fauna/index');
       }
       
+    }
+
+    public function floraIndex(){
+        return view('options.flora.index');
+    }
+
+    public function faunaIndex(){
+        return view('options.fauna.index');
     }
 }
 

@@ -3,7 +3,7 @@
     
        <!-- Hero Start -->
        <div class="container-fluid bg-primary py-5 bg-hero mb-5">
-        <div class="container py-5">
+        <div class="row flex-column container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-1 text-white mb-md-4">Our Products</h1>
@@ -14,19 +14,19 @@
 
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
-                    <h1 class="display-1 text-white mb-md-4">Add Option</h1>
+                    <h4 class="display-1 text-white mb-md-4">Add Option</h4>
                     
                     <form class="form" method="post" action="{{route('option')}}">
                       @csrf
                       <div class="form-check">
-                        <input class="form-check input" type="radio" name="option" id="flora" /> 
+                        <input class="form-check input" type="radio" name="option" id="flora" value='flora'/> 
                         <label class="form-check label" for="flora">Flora</label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check input" type="radio" name="option" id="fauna" /> 
+                        <input class="form-check input" type="radio" name="option" id="fauna" value="fauna" /> 
                         <label class="form-check label" for="flora">Fauna</label>
                       </div>
-
+      <button class="btn btn-success" type="submit">Add Product</button>
 
                     </form>
                     <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
