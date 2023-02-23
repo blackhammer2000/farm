@@ -71,4 +71,9 @@ class HomeController extends Controller
         return view('home.testimonial');
     }
 
+    public function admin()
+    {
+        return view('admin.index');
+    }
+
 }

@@ -72,7 +72,7 @@
 
                 <!-- @if(Auth::check())
 
-                <a href="{{route('home.admin')}}" class="nav-item nav-link">Admin</a>
+                <a href="{{route('admin.index')}}" class="nav-item nav-link">Admin</a>
                 <a href="{{route('home.logout')}}" class="nav-item nav-link">Logout</a>
 
                 @else
