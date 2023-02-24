@@ -60,6 +60,7 @@
                                 <span class="text-white">123 Street, New York, USA</span>
                             </div>
                         </div>
+                        
                         <div class="d-flex mb-4">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
                                 <i class="bi bi-envelope-open fs-4 text-white"></i>
@@ -69,6 +70,7 @@
                                 <span class="text-white">info@example.com</span>
                             </div>
                         </div>
+
                         <div class="d-flex">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
                                 <i class="bi bi-phone-vibrate fs-4 text-white"></i>
