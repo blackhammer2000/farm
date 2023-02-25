@@ -32,12 +32,15 @@
                                 <div class="col-6">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
                                 </div>
+                                
                                 <div class="col-6">
                                     <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
                                 </div>
+
                                 <div class="col-12">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Subject" style="height: 55px;">
                                 </div>
+
                                 <div class="col-12">
                                     <textarea class="form-control bg-light border-0 px-4 py-3" rows="2" placeholder="Message"></textarea>
                                 </div>
@@ -51,6 +54,7 @@
                 <div class="col-lg-5">
                     <div class="bg-secondary h-100 p-5">
                         <h2 class="text-white mb-4">Get In Touch</h2>
+
                         <div class="d-flex mb-4">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
                                 <i class="bi bi-geo-alt fs-4 text-white"></i>
@@ -60,7 +64,7 @@
                                 <span class="text-white">123 Street, New York, USA</span>
                             </div>
                         </div>
-                        
+
                         <div class="d-flex mb-4">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
                                 <i class="bi bi-envelope-open fs-4 text-white"></i>
