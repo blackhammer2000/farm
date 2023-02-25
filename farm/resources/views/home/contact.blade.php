@@ -4,6 +4,7 @@
 
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 bg-hero mb-5">
+        
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
@@ -19,6 +20,7 @@
 
     <!-- Contact Start -->
     <div class="container-fluid py-5">
+
         <div class="container">
             <div class="mx-auto text-center mb-5" style="max-width: 500px;">
                 <h6 class="text-primary text-uppercase">Contact Us</h6>
@@ -32,7 +34,7 @@
                                 <div class="col-6">
                                     <input type="text" class="form-control bg-light border-0 px-4" placeholder="Your Name" style="height: 55px;">
                                 </div>
-                                
+
                                 <div class="col-6">
                                     <input type="email" class="form-control bg-light border-0 px-4" placeholder="Your Email" style="height: 55px;">
                                 </div>

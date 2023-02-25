@@ -55,6 +55,7 @@
     <div class="container-fluid bg-primary facts py-5 mb-5">
         <div class="container py-5">
             <div class="row gx-5 gy-4">
+                
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
@@ -66,6 +67,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
@@ -77,6 +79,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex">
                         <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
