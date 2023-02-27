@@ -16,7 +16,6 @@
     </div>
     <!-- Hero End -->
 
-
     <!-- Blog Start -->
     <div class="container py-5">
         <div class="row g-5">
@@ -236,5 +235,4 @@
 
 
 @endsection
-
 </x-home-master>
