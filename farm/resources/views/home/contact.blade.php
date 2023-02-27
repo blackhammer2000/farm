@@ -93,8 +93,5 @@
     </div>
     <!-- Contact End -->
 
-
-
 @endsection
-
 </x-home-master>

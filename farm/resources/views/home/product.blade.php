@@ -1,6 +1,6 @@
 <x-home-master>
     @section('content')
-    
+
        <!-- Hero Start -->
        <div class="container-fluid bg-primary py-5 bg-hero mb-5">
         <div class="row flex-column container py-5">
@@ -15,15 +15,15 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h4 class="display-1 text-white mb-md-4">Add Option</h4>
-                    
+
                     <form class="form" method="post" action="{{route('option')}}">
                       @csrf
                       <div class="form-check">
-                        <input class="form-check input" type="radio" name="option" id="flora" value='flora'/> 
+                        <input class="form-check input" type="radio" name="option" id="flora" value='flora'/>
                         <label class="form-check label" for="flora">Flora</label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check input" type="radio" name="option" id="fauna" value="fauna" /> 
+                        <input class="form-check input" type="radio" name="option" id="fauna" value="fauna" />
                         <label class="form-check label" for="flora">Fauna</label>
                       </div>
       <button class="btn btn-success" type="submit">Add Product</button>
@@ -36,7 +36,6 @@
         </div>
     </div>
     <!-- Hero End -->
-
 
     <!-- Products Start -->
     <div class="container-fluid py-5">
@@ -157,7 +156,6 @@
         </div>
     </div>
     <!-- Features Start -->
- 
 
     @endsection
 </x-home-master>
