@@ -1,10 +1,8 @@
 <x-home-master>
 @section('content')
 
-
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 bg-hero mb-5">
-        
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
