@@ -49,7 +49,7 @@
     <div class=form-group>
     <input id="name" type="text" placeholder="Enter Crop Quantity" @error('quantity') is-invalid @enderror required>
 
-    @error('name')
+    @error('quantity')
        <span class="invalid-feedback" role="alert">
         <strong>{{message}}</strong>
        </span>
@@ -57,9 +57,9 @@
     </div>
 
     <div class=form-group>
-     <input id="name" type="text" placeholder="Enter Crop Quantity" @error('quantity') is-invalid @enderror required>
+     <input id="name" type="text" placeholder="Enter Crop Disease" @error('disease') is-invalid @enderror required>
 
-    @error('name')
+    @error('disease')
        <span class="invalid-feedback" role="alert">
         <strong>{{message}}</strong>
        </span>
