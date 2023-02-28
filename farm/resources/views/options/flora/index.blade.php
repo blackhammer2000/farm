@@ -34,14 +34,37 @@
 
 <div class="container d-flex justify-content-center align-items-center h-100">
  <form method="post" action="{{route('addCrop')}}" class="form">
+    @csrf
+
     <div class=form-group>
-        <input placeholder="Enter Crop Name" required>
+        <input id="name" type="text" placeholder="Enter Crop Name" @error('name') is-invalid @enderror required>
+
+      @error('name')
+       <span class="invalid-feedback" role="alert">
+        <strong>{{message}}</strong>
+       </span>
+      @enderror
     </div>
+
     <div class=form-group>
-        <input placeholder="Enter Crop Quantity" required>
+    <input id="name" type="text" placeholder="Enter Crop Quantity" @error('quantity') is-invalid @enderror required>
+
+    @error('name')
+       <span class="invalid-feedback" role="alert">
+        <strong>{{message}}</strong>
+       </span>
+      @enderror
     </div>
+
     <div class=form-group>
-        <input placeholder="Enter Crop Disease" required>
+     <input id="name" type="text" placeholder="Enter Crop Quantity" @error('quantity') is-invalid @enderror required>
+
+    @error('name')
+       <span class="invalid-feedback" role="alert">
+        <strong>{{message}}</strong>
+       </span>
+      @enderror
+
     </div>
     <div class=form-group>
         <button type="submit" class="btn btn-success">Save Crop</button>

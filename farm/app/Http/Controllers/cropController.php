@@ -62,7 +62,7 @@ class cropController extends Controller{
 
             $crop->save();
 
-
+           redirect('/options/flora/index');
 
         // return Crop::create([
         //     'name' => $data['name'],
