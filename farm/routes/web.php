@@ -57,6 +57,9 @@ Route::get('/admin', [App\Http\Controllers\adminController::class, 'index']) -> 
 
 Route::post('/options', [optionsController::class, 'chooseOption']) -> name('options');
 
+Route::post('/addAnimal', [animalController::class, 'addAnimalToDb']) -> name('addAnimalToDb');
+Route::post('/addCropToDb', [cropController::class, 'addCropToDb']) -> name('addCropToDb');
+
 Route::get('/options/flora/index', [cropController::class, 'index']) -> name('flora.index');
 
 Route::get('/options/fauna/index', [animalController::class, 'index']) -> name('fauna.index');

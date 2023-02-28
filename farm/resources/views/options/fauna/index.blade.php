@@ -21,17 +21,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{asset('home_ui/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset('home_ui/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{asset('home_ui/css/style.css')}}" rel="stylesheet">
 </head>
 
 <body>
 
-<div>fauna</div>
+<div class="container d-flex justify-content-center align-items-center h-100">
+ <form action="route('addAnimal')" class="form">
+    <div class=form-group>
+        <input placeholder="Enter Animal Name" required>
+    </div>
+    <div class=form-group>
+        <input placeholder="Enter Animal Quantity" required>
+    </div>
+    <div class=form-group>
+        <input placeholder="Enter Animal Disease" required>
+    </div>
+    <div class=form-group>
+        <button type="submit" class="btn btn-success">Save Animal</button>
+    </div>
+ </form>
+</div>
 </body>
 </html>

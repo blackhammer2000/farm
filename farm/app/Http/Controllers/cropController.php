@@ -14,6 +14,9 @@ class cropController extends Controller{
     public function index(){
         return view('options.flora.index');
     }
+
+    public function addCropToDb(){}
+
 }
 
 

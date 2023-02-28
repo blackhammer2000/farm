@@ -19,12 +19,12 @@ class optionsController extends Controller{
     //   dd($request);
 
       if($request -> option === "Flora"){
-        return redirect('/option/flora/index');
+        return redirect('/options/flora/index');
 
       }
 
       elseif($request -> option === "Fauna"){
-        return redirect('/option/fauna/index');
+        return redirect('/options/fauna/index');
 
       }
 
