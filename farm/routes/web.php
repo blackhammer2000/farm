@@ -49,7 +49,7 @@ Route::get('/testimonial', [App\Http\Controllers\HomeController::class, 'testimo
 
 //////////////////////////////////////////////
 
-Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index']) -> name('admin.index');
+Route::get('/admin', [App\Http\Controllers\adminController::class, 'index']) -> name('admin.index');
 
 // Route::get('/logout', [App\Http\Controllers\HomeController::class, 'logout']) -> name('home.index');
 
