@@ -32,6 +32,20 @@
 
 <body>
 
-<div>flora</div>
-</body>
+<div class="container d-flex justify-content-center align-items-center h-100">
+ <form method="post" action="{{route('addCrop')}}" class="form">
+    <div class=form-group>
+        <input placeholder="Enter Crop Name" required>
+    </div>
+    <div class=form-group>
+        <input placeholder="Enter Crop Quantity" required>
+    </div>
+    <div class=form-group>
+        <input placeholder="Enter Crop Disease" required>
+    </div>
+    <div class=form-group>
+        <button type="submit" class="btn btn-success">Save Crop</button>
+    </div>
+ </form>
+</div></body>
 </html>

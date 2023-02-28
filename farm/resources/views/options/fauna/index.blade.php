@@ -33,7 +33,7 @@
 <body>
 
 <div class="container d-flex justify-content-center align-items-center h-100">
- <form action="route('addAnimal')" class="form">
+ <form method="post" action="{{route('addAnimal')}}" class="form">
     <div class=form-group>
         <input placeholder="Enter Animal Name" required>
     </div>

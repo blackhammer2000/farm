@@ -15,7 +15,9 @@ class animalController extends Controller{
         return view('options.fauna.index');
     }
 
-    public function addAnimalToDb(){}
+    public function addAnimalToDb(Request $request){
+        dd($request);
+    }
 }
 
 
