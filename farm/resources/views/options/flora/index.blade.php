@@ -37,7 +37,7 @@
     @csrf
 
     <div class=form-group>
-        <input id="name" type="text" placeholder="Enter Crop Name" @error('name') is-invalid @enderror required>
+        <input id="name" type="text" placeholder="Enter Crop Name" @error('name') is-invalid @enderror required autocomplete="name" autofocus>
 
       @error('name')
        <span class="invalid-feedback" role="alert">
@@ -47,7 +47,7 @@
     </div>
 
     <div class=form-group>
-    <input id="name" type="text" placeholder="Enter Crop Quantity" @error('quantity') is-invalid @enderror required>
+    <input id="name" type="text" placeholder="Enter Crop Quantity" @error('quantity') is-invalid @enderror required autocomplete="quantity" autofocus>
 
     @error('quantity')
        <span class="invalid-feedback" role="alert">
@@ -57,7 +57,7 @@
     </div>
 
     <div class=form-group>
-     <input id="name" type="text" placeholder="Enter Crop Disease" @error('disease') is-invalid @enderror required>
+     <input id="name" type="text" placeholder="Enter Crop Disease" @error('disease') is-invalid @enderror required autocomplete="disease" autofocus>
 
     @error('disease')
        <span class="invalid-feedback" role="alert">
