@@ -55,8 +55,8 @@ Route::get('/admin', [App\Http\Controllers\adminController::class, 'index']) -> 
 
 //options
 
-Route::post('/option', [optionsController::class, 'chooseOption']) -> name('option');
+Route::post('/options', [optionsController::class, 'chooseOption']) -> name('options');
 
-Route::get('/option/flora/index', [cropController::class, 'index']) -> name('flora.index');
+Route::get('/options/flora/index', [cropController::class, 'index']) -> name('flora.index');
 
-Route::get('/option/fauna/index', [animalController::class, 'index']) -> name('fauna.index');
+Route::get('/options/fauna/index', [animalController::class, 'index']) -> name('fauna.index');

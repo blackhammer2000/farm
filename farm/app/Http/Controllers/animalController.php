@@ -12,7 +12,7 @@ class animalController extends Controller{
     // }
 
     public function index(){
-        return view('option.fauna.index');
+        return view('options.fauna.index');
     }
 }
 

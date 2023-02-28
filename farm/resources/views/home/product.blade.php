@@ -16,7 +16,7 @@
                 <div class="col-lg-8 text-center text-lg-start">
                     <h4 class="display-1 text-white mb-md-4">Add Option</h4>
 
-                    <form class="form" method="post" action="{{route('option')}}">
+                    <form class="form" method="post" action="{{route('options')}}">
                       @csrf
                       <div class="form-check">
                         <input class="form-check input" type="radio" name="option" id="flora" value='flora'/>

@@ -27,14 +27,14 @@ class optionsController extends Controller{
         return redirect('/option/fauna/index');
 
       }
-      
+
     }
 
-   
 
-    public function index(){
-        return view('options.fauna.index');
-    }
+
+    // public function index(){
+    //     return view('options.fauna.index');
+    // }
 }
 
 
