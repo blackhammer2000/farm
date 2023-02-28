@@ -18,12 +18,12 @@
 
                     <form class="form" method="post" action="{{route('options')}}">
                       @csrf
-                      <div class="form-check">
-                        <input class="form-check input" type="radio" name="option" id="flora" value='flora'/>
+                      <div class="form-check form-group row">
+                        <input class="form-check input" type="radio" name="option" id="flora" value='Flora'/>
                         <label class="form-check label" for="flora">Flora</label>
                       </div>
-                      <div class="form-check">
-                        <input class="form-check input" type="radio" name="option" id="fauna" value="fauna" />
+                      <div class="form-check form-group row">
+                        <input class="form-check input" type="radio" name="option" id="fauna" value="Fauna" />
                         <label class="form-check label" for="flora">Fauna</label>
                       </div>
       <button class="btn btn-success" type="submit">Add Product</button>
