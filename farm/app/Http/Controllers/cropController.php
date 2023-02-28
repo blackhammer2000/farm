@@ -48,6 +48,7 @@ class cropController extends Controller{
     public function addCropToDb(Request $request)
     {
                 dd($request);
+                // $_REQUEST
 
             $request->validate([
                'name' => ['required', 'string', 'max:255'],
@@ -62,7 +63,7 @@ class cropController extends Controller{
 
             $crop->save();
 
-           redirect('/options/flora/index');
+           return redirect()->route('options.flora.index');
 
         // return Crop::create([
         //     'name' => $data['name'],
