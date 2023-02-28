@@ -34,6 +34,8 @@
 
 <div class="container d-flex justify-content-center align-items-center h-100">
  <form method="post" action="{{route('addAnimal')}}" class="form">
+    @csrf
+
     <div class=form-group>
         <input placeholder="Enter Animal Name" required>
     </div>

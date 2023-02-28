@@ -19,12 +19,6 @@ class cropController extends Controller{
         return view('options.flora.index');
     }
 
-    // public function addCropToDb(Request $request){
-    //     dd($request);
-    // }
-
-
-
 // use App\Http\Controllers\Controller;
 // use App\Providers\RouteServiceProvider;
 // use Illuminate\Foundation\Auth\RegistersUsers;
@@ -36,7 +30,7 @@ class cropController extends Controller{
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    protected function validator(array $data)
+    public function validator(array $data)
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
@@ -51,20 +45,31 @@ class cropController extends Controller{
      * @param  array  $data
      * @return \App\Models\Crop
      */
-    protected function addCropToDb(array $data)
+    public function addCropToDb(Request $request)
     {
-                dd($data);
+                dd($request);
 
-        return Crop::create([
-            'name' => $data['name'],
-            'quantity' => $data['quantity'],
-            'disease' => $data['disease'],
-        ]);
+            $request->validate([
+               'name' => ['required', 'string', 'max:255'],
+               'quantity' => ['required', 'string', 'max:255'],
+               'disease' => ['required', 'string', 'max:255',],
+            ]);
+
+            $crop = new Crop();
+            $crop->name = $request->name;
+            $crop->quantity = $request->quantity;
+            $crop->disease = $request->disease;
+
+            $crop->save();
+
+
+
+        // return Crop::create([
+        //     'name' => $data['name'],
+        //     'quantity' => $data['quantity'],
+        //     'disease' => $data['disease'],
+        // ]);
     }
 }
-
-
-// }
-
 
 ?>
