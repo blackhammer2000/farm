@@ -180,8 +180,5 @@
     </div>
     <!-- Team End -->
 
-
-
-
     @endsection
 </x-home-master>
