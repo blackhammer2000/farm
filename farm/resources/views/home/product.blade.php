@@ -29,8 +29,6 @@
       <button class="btn btn-success" type="submit">Add Product</button>
 
                     </form>
-                    <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Home</a>
-                    <a href="" class="btn btn-secondary py-md-3 px-md-5">Products</a> -->
                 </div>
             </div>
         </div>
