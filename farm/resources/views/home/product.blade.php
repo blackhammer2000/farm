@@ -103,7 +103,6 @@
     </div>
     <!-- Products End -->
 
-
     <!-- Features Start -->
     <div class="container-fluid bg-primary feature py-5 pb-lg-0 mt-5" style="margin-bottom: 135px;">
         <div class="container py-5 pb-lg-0">
@@ -153,7 +152,7 @@
             </div>
         </div>
     </div>
-    <!-- Features Start -->
+    <!-- Features end -->
 
     @endsection
 </x-home-master>
