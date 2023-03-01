@@ -57,6 +57,7 @@
     </div>
 
     <div class=form-group>
+
      <input id="name" type="text" placeholder="Enter Crop Disease" @error('disease') is-invalid @enderror required autocomplete="disease" autofocus>
 
     @error('disease')
