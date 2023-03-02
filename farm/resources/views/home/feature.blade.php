@@ -68,7 +68,6 @@
     <!-- Features Start -->
 
 
-
  @endsection
 
 </x-home-master>
