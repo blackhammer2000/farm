@@ -26,8 +26,7 @@
                         <input class="form-check input" type="radio" name="option" id="fauna" value="Fauna" />
                         <label class="form-check label" for="flora">Fauna</label>
                       </div>
-      <button class="btn btn-success" type="submit">Add Product</button>
-
+                      <button class="btn btn-success" type="submit">Add Product</button>
                     </form>
                 </div>
             </div>
