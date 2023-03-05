@@ -35,7 +35,6 @@
 <div class="container d-flex justify-content-center align-items-center h-100">
  <form method="post" action="{{route('addCrop')}}" class="form" enctype="multipart/form-data">
     @csrf
-
     <div class=form-group>
         <input id="name" type="text" placeholder="Enter Crop Name" @error('name') is-invalid @enderror required autocomplete="name" autofocus>
 
