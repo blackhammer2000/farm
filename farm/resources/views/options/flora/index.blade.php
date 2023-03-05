@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
 <div class="container d-flex justify-content-center align-items-center h-100">
  <form method="post" action="{{route('addCrop')}}" class="form" enctype="multipart/form-data">
     @csrf
