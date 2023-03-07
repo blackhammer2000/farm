@@ -14,6 +14,7 @@ class RoleUser extends Migration
     public function up()
     {
         //
+        Schema::create("role");
     }
 
     /**
