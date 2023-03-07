@@ -14,7 +14,12 @@ class RoleUser extends Migration
     public function up()
     {
         //
-        Schema::create("role");
+        Schema::create("role",function (Blueprint $table){
+            $table->unique(['role_id', 'permission_id']);
+            $table->foreignId('role_id')->constrained()->onDelete('CASCADE');
+            $table->foreignId('permission_id')->constrained()->onDelete('CASCADE');
+            $table->timestamps();
+        });
     }
 
     /**
