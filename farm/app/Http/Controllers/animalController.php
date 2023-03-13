@@ -24,12 +24,12 @@ class animalController extends Controller{
            'disease' => ['required', 'string', 'max:255',],
         ]);
 
-        $crop = new Crop();
-        $crop->name = $request->name;
-        $crop->quantity = $request->quantity;
-        $crop->disease = $request->disease;
+        $animal = new Animal();
+        $animal->name = $request->name;
+        $animal->quantity = $request->quantity;
+        $animal->disease = $request->disease;
 
-        $crop->save();
+        $animal->save();
 
        redirect('/options/flora/index');
     }
