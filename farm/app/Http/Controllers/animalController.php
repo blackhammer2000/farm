@@ -33,6 +33,9 @@ class animalController extends Controller{
 
        redirect('/options/flora/index');
     }
+
+    public function updateAnimalInDB(Request $request, Animal $animal){}
+    public function deleteAnimalFromDB(Animal $animal){}
 }
 
 
